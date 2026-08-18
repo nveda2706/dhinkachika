@@ -1,0 +1,35 @@
+{
+  "name": "project-to-resume",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "overrides": {
+    "html2canvas": "npm:html2canvas-pro@latest"
+  },
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "html2canvas-pro": "^2.0.4",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
+    "next": "^16.2.9",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.9",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^5.9.3"
+  }
+}
