@@ -130,10 +130,11 @@ export default function Home() {
           </div>
           {bullets.length > 0 && (
             <button onClick={downloadPDF} className="mt-6 self-end border-2 border-slate-800 hover:bg-slate-800 hover:text-white transition text-slate-800 font-bold px-4 py-2 rounded text-xs cursor-pointer">
-              📄 Export PDF Standard
+              📄 Export PDF Standard format
             </button>
           )}
         </div>
+        
       </div>
     </main>
   );
